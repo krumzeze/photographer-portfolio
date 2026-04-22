@@ -1,0 +1,44 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.DS_Store
+*.pem
+node.msi
+
+# large media (exceeds GitHub 100MB limit — host externally)
+public/showreel.mp4
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env*.local
+.env.development
+.env.production
+
+# editor
+.vscode/
+.idea/
+
+# logs
+logs
+*.log
+
+# claude local settings
+.claude/settings.local.json
